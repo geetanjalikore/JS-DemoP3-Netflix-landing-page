@@ -170,6 +170,31 @@ img{
     align-items: center;
 }
 
+.table{
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse:collapse ;
+    border-spacing: 0;
+}
+
+.table thead th{
+    text-transform: uppercase;
+    padding: 0.8erm;
+}
+
+.table tbody tr td{
+    color: #999;
+    padding: 0.8erm 1.2erm;
+    text-align: center;
+}
+
+.table tbody tr td:first-child{
+    text-align: left;
+}
+
+.table tbody tr :nth-child(even){
+    background: #222;
+}
 
 /*container*/
 .container{
